@@ -1,1 +1,119 @@
+# Actividad de Clase: Analizando Agentes de IA con Hugging Face Spaces
+
+## Objetivo
+
+Explorar aplicaciones reales de Inteligencia Artificial en **Hugging
+Face Spaces** y analizarlas desde la perspectiva de los **agentes
+racionales**.
+
+Al finalizar la actividad, los estudiantes deberán ser capaces de:
+
+-   Identificar los componentes **PEAS** de un agente.
+-   Clasificar las propiedades del entorno.
+-   Proponer qué tipo de programa de agente podría implementarse detrás
+    del sistema.
+-   Justificar sus respuestas.
+
+------------------------------------------------------------------------
+
+## Instrucciones
+
+1.  Ingresen a **https://huggingface.co/spaces**.
+2.  Exploren diferentes Spaces.
+3.  Seleccionen uno que les parezca interesante.
+4.  Interactúen con el sistema durante algunos minutos.
+5.  Completen la siguiente ficha de análisis.
+
+------------------------------------------------------------------------
+
+# Ficha de análisis
+
+## 1. Nombre del Space
+
+**Nombre:Z image turbo **
+
+**Enlace:https://huggingface.co/spaces/mrfakename/Z-Image-Turbo**
+
+------------------------------------------------------------------------
+
+## 2. ¿Qué hace el agente?
+
+El agente toma las inidicaciones que el usuario coloque en un prompt para la creación de una imagen mediante el agente, 
+este al recicir la imagen efectua lo dicho en el prompt y procede con la creación 
+
+------------------------------------------------------------------------
+
+## 3. Análisis PEAS
+
+  Elemento          Respuesta
+  ----------------- ----------------------------------------------------
+  **Performance**   El agente realiza una imagen acorde a lo pedido en el prompt
+  **Environment**   El agenter interactua con las posibles indicaciones que de el usuario
+  **Actuators**     Produce una imagen acorde a lo pedido 
+  **Sensors**       La principal fuente de información es el prompt dado por el ususario 
+
+------------------------------------------------------------------------
+
+## 4. Clasificación del entorno
+
+Complete la siguiente tabla y justifique brevemente cada respuesta.
+
+  Propiedad      Clasificación     Justificación
+  -------------- ----------------- ---------------
+  Observable     Total / Parcial   
+  Determinista   Sí                 El agente se basa en el estado actual que le da el usuario para despues dar como resultado uno nuevo 
+  Episódico      No                 El agente posee dos episodios, la lectura del prompt y la libertdad de colocar cualquier cosa y como ultimo nos genera la imagen 
+  Estático       No                 El entorno no cambia 
+  Discreto       Sí                 El estado y el entorno son continuos
+  Conocido       Sí                 El agente tiene en cuenta las leyes al darle al prompt con sus dimensiones espacios etc 
+
+------------------------------------------------------------------------
+
+## 5. ¿Qué tipo de programa de agente creen que es?
+
+Seleccione la opción que consideren más adecuada y explique por qué.
+
+-   Agente basado en modelo
+Es un agente que se basa en un prompt usando un sensor para ver la petición que le da el usuario, para poder actuar y darnos la imagen 
+
+
+> **Importante:** No existe una única respuesta correcta. Lo importante
+> es justificar la elección a partir del comportamiento observado.
+
+------------------------------------------------------------------------
+
+# Discusión en clase
+
+Después de las presentaciones, discutiremos preguntas como:
+
+-   ¿Dos Spaces diferentes pueden compartir el mismo tipo de entorno?
+-   ¿Es posible saber con certeza qué tipo de agente implementa un Space
+    únicamente observándolo?
+-   ¿Qué diferencia existe entre el comportamiento observable de un
+    agente y su implementación interna?
+
+------------------------------------------------------------------------
+
+# Reto adicional
+
+Encuentre un Space que pueda clasificarse como:
+
+1.  **Totalmente observable, determinista y episódico.**
+2.  **Parcialmente observable, estocástico y secuencial.**
+
+Justifique su respuesta.
+El primer seria agente seria este mismo agente Z space el cual nos brinda estas tres caracteristicas
+------------------------------------------------------------------------
+
+# Rúbrica (10 puntos)
+
+| Criterio | Puntos |
+|-----------|:------:|
+| Descripción correcta del Space | 2 |
+| Identificación de PEAS | 3 |
+| Clasificación del entorno | 3 |
+| Justificación del tipo de agente | 2 |
+| **Total** | **10** |
+
+------------------------------------------------------------------------
 
