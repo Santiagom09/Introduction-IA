@@ -1,0 +1,16 @@
+# Claves y entornos
+.env
+*.env
+.venv/
+venv/
+
+# Datos temporales de los notebooks
+papers/*.pdf
+qdrant_data/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+
+# El .gitignore del curso ignora data/; aquí sí queremos el ejemplo
+!data/
